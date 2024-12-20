@@ -1,0 +1,44 @@
+/* Set custom pink color */
+.bg-pink {
+    background-color: #f8c8dc;
+}
+  
+  /* Button with girly style */
+  .btn-pink {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+}
+  
+  .btn-pink:hover {
+    background-color: #ff3399;
+}
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+  
+  .card:hover {
+    transform: scale(1.05);
+}
+  
+  body {
+    font-family: 'Lobster', cursive;
+}
+  
+  h1, .card-title {
+    font-family: 'Lobster', cursive;
+}
+  
+
+  .card-body {
+    text-align: center;
+}
+  
+
+  .card-img-top {
+    padding: 15px;
+}
+  

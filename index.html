@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadi's Kupcakes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-pink">
+        <a class="navbar-brand text-white" href="#home">Kadi's Kupcakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="jumbotron text-center bg-light">
+        <div class="container">
+            <h1 class="display-4">Welcome to Kadi's Kupcakes</h1>
+            <p class="lead">Indulge in the most delicious one of a kind, freshly baked kupcakes for every occasion!</p>
+            <a href="#menu" class="btn btn-pink btn-lg">View Our Kupcakes</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu py-5">
+        <div class="container">
+            <h2 class="text-center text-white">Our Kupcake Collection</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="Vanilla-Sprinkled-Cupcakes-10-of-11-scaled-e1617151403969 (1).jpg" class="card-img-top" alt="Vanilla Delight">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Delight</h5>
+                            <p class="card-text">Classic vanilla Kupcake topped with smooth buttercream frosting.</p>
+                            <p><strong>Price:</strong> $4.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="chocolate-covered-strawberry-cupcakes-3.jpg" class="card-img-top" alt="Chocolate Fudge">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Fudge</h5>
+                            <p class="card-text">Rich chocolate Kupcake topped with delicious strawberry covered frosting .</p>
+                            <p><strong>Price:</strong> $5.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="cupcake.jpg" class="card-img-top" alt="Strawberry Swirl">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Shortcake</h5>
+                            <p class="card-text">Delicious strawberry Kupcake topped with a creamy swirl of strawberry frosting.</p>
+                            <p><strong>Price:</strong> $5.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="Pink-Coconut.jpg" class="card-img-top" alt="Strawberry Swirl">
+                        <div class="card-body">
+                            <h5 class="card-title">Pink Coconut</h5>
+                            <p class="card-text">Pink Kupcake coconut flavored topped with strawberry frosting.</p>
+                            <p><strong>Price:</strong> $5.00</p>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .bg-pink {
+            background-color: #FF66B2;
+        }
+
+        .btn-pink {
+            background-color: #FF66B2;
+            color: white;
+            border: none;
+        }
+
+        .btn-pink:hover {
+            background-color: #FF3385;
+        }
+    </style>
+    
+    <section id="testimonials" class="testimonials bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">What Our Customers Are Saying</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <blockquote class="blockquote">
+                        "These cupcakes are the best I've ever had, hands down!" 
+                        <footer>- Genesis</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <blockquote class="blockquote">
+                        "Absolutely delightful! The strawberry swirl is my favorite!" 
+                        <footer>- Choma</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <blockquote class="blockquote">
+                        "I can't get enough of these cupcakes! I'll be back for more soon!" 
+                        <footer>- Saltinat</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <blockquote class="blockquote">
+                        "Best cupcakes ever! My guys are always asking me to bring them in for friday meetings." 
+                        <footer>- Mickaila </footer> 
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact bg-pink text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="What can we help you with?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+</body>
+</html>
